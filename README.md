@@ -70,7 +70,7 @@ Coming soon.
 ### Evaluation
 To evaluate the trained T-SMILE models, please run the following scripts:
 
-# HC-STVG
+#### HC-STVG
 ```
 python3 -m torch.distributed.launch \
  --nproc_per_node=4 \
@@ -82,7 +82,7 @@ python3 -m torch.distributed.launch \
  INPUT.RESOLUTION 224
 ```
 
-# VidSTG
+#### VidSTG
 ```
 python3 -m torch.distributed.launch \
  --nproc_per_node=4 \
@@ -94,7 +94,7 @@ python3 -m torch.distributed.launch \
  INPUT.RESOLUTION 448
 ```
 
-# ActivityNet
+#### ActivityNet
 ```
 python3 -m torch.distributed.launch \
  --nproc_per_node=4 \
